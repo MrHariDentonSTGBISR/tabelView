@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.tabelview.HelloController" prefHeight="600" prefWidth="800">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <TableView fx:id="tableview" prefHeight="400.0" prefWidth="500.0">
+   </TableView>
+    <Button fx:id="btnActor" onAction="#onActorButtonClick" text="Actor" />
+    <Button fx:id="btnFilm" onAction="#onFilmButtonClick" text="Film" />
+
+</VBox>
